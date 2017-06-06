@@ -1,6 +1,8 @@
+@font-face { font-family: Quagent; src: url("../fonts/Quagent-Regular.ttf"); }
 body {
 	 background: url("../images/playstation-pattern.png");
-}	.jumbotron {background: url("../images/playstation-pattern.png");}
+}	.jumbotron {background: url("../images/playstation-pattern.png");
+				font-family: Quagent; sans-serif;}
 
 p {
 	margin-bottom:-3px;
