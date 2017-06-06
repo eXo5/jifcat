@@ -6,7 +6,7 @@ $(".button").click();
 function displayTopic() {
 
  var topic = $(this).attr("data-name");
- var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=dc6zaTOxFJmzC";
+ var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&limit=10&api_key=dc6zaTOxFJmzC";
 
 
 
