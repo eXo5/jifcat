@@ -1,4 +1,4 @@
-var topics = ["trending", "Avocado", "Banana", "Cookie", "catsup"];
+var topics = ["Trending", "Avocado", "Banana", "Cookie", "Catsup", "Donuts", "Ears of Corn", "French Fries", "Guava", "Harambe"];
 var topic = $("#gif-input").val();
 $(".button").click();
 
