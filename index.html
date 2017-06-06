@@ -1,24 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <title>GifTastic!</title>
 
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/stylex.css">
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script><!-- in descending order - bootstrap,reset,local CSS, jquery -->
-	<title>JifCat!</title><!-- JifCat b/c franklin says Jif and because Giphycat -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/stylex.css">
+  
+
 </head>
+
 <body>
-	<div class="jumbotron">
-		<nav>
-		</nav>
-	</div>
+    <nav>
+    </nav>
+  <div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="jumbotron">
+    <h1>Querier</h1>
+            </div>
+    </div>
+
+        <div id="buttons-view">
+            <!-- buttons populate -->
+        </div>
 
 
+        <form id="gif-form">
+          <label for="gif-input">Add a Gif</label>
+          <input type="text" id="gif-input" placeholder="Magic Pictures">
+          <br>
 
-<script src="assets/javascript/javascript.js"></script>
+          <!-- Button triggers new movie to be added -->
+          <input id="add-gif" type="submit" value="Add a Gif">
+        </form>
+        <div id="topics">
+          <div id="topics-view">
+            <img src="https://media4.giphy.com/media/oyZEvDYO8rqQo/giphy-downsized-medium.gif" style="margin-left:250px">
+      </div>
+    </div>  
+    </div>
+  </div>
+    <script src="assets/javascript/jifcat.js"></script>
 </body>
+
 </html>

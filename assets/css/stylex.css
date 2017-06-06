@@ -1,0 +1,36 @@
+body {
+	 background: url("../images/playstation-pattern.png");
+}	.jumbotron {background: url("../images/playstation-pattern.png");}
+
+p {
+	margin-bottom:-3px;
+}
+
+button {
+	margin-right:5px;
+	margin-bottom:7px;
+
+}
+
+#button-view {
+	margin:auto;
+}
+
+
+
+.container-fluid {
+
+	display:inline-block;
+}
+.gif {
+	max-width:300px;
+	display:inline-block;
+}
+
+#gif-input {
+	width:500px;
+}
+
+#add-gif {
+
+}
